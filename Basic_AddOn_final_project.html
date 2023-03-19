@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My hobbies</title>
+    <style>
+      body {
+        background: linear-gradient(
+          109.6deg,
+          rgb(44, 83, 131) 15.6%,
+          rgb(95, 175, 201) 74.4%
+        );
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      h1 {
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 20px;
+        text-align: center;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        background: #5fafc9;
+        border: 1px solid #5fafc9;
+        border-radius: 5px;
+        padding: 15px 10px;
+        font-size: 15px;
+        font-weight: bold;
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        cursor: pointer;
+        background: #ffffff;
+      }
+
+      p {
+        padding: 15px 50px;
+        line-height: 1.3;
+      }
+
+      a {
+        text-decoration: none;
+        font-style: italic;
+        color: #000;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        font-size: 13px;
+        text-align: center;
+        margin: 15px 0;
+      }
+
+      .main {
+        max-width: 680px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin: 20px auto;
+        padding: 10px;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin: 5px auto;
+        padding: 10px;
+        width: 600px;
+      }
+
+      .gallery img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+      }
+
+      .theme {
+        background: #243949;
+        color: #ffffff;
+        border: none;
+        padding: 5px 10px;
+      }
+
+      .theme:hover {
+        color: #000;
+      }
+
+      .wind-intro-foto {
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+        transition: all 200ms ease-in-out;
+      }
+
+      .wind-intro-foto:hover {
+        transform: scale(1.3);
+      }
+
+      .media {
+        display: grid;
+        grid-template-columns: repeat(2, 20px);
+        grid-gap: 10px;
+        padding: 5px;
+        justify-content: center;
+      }
+
+      .media img {
+        width: 16px;
+        height: 16px;
+      }
+
+      .dark {
+        background: linear-gradient(to bottom, #192732 0%, #517fa4 100%);
+        color: #ffffff;
+      }
+
+      .dark .main {
+        background: linear-gradient(to top, #243949 20%, #517fa4 80%);
+      }
+
+      .dark a {
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme">Change Theme</button>
+    <div class="main">
+      <h1>Sailing & Windsurfing</h1>
+
+      <h2>My hobbies</h2>
+
+      <a href="https://www.youtube.com/watch?v=6T81IAqyL78" target="_blank">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/127/original/DSC_0701.JPG?1670019207"
+          alt="VOR Mapfre"
+          title="On board of Desafío Mapfre. Stopover Cape Town VOR 2017-2018"
+          class="wind-intro-foto"
+        />
+      </a>
+      <div class="gallery">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/125/original/matas.jpg?1670019123"
+          alt="Windsurfing"
+          title="Matas Blancas"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/124/original/DSC_1031.resized.JPG?1670019096"
+          alt="Greenland"
+          title="SY JoinUs. Greenland"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/126/original/DSC_0049_gimped1.JPG?1670019159"
+          alt="Windsurfing"
+          title="Juven @ Risco del Paso 2018"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/056/122/original/DSC06507.JPG?1670018904"
+          alt="Sailing"
+          title="High sea"
+        />
+      </div>
+
+      <p>
+        <strong>⛵ Sailing</strong> <br />
+        So far: over 9500 NM sailed <br />
+        Countries visited: 🇮🇸 Iceland, 🇳🇴 Norway (+ Spitsbergen, Jan Mayen), 🇸🇪
+        Sweden, 🇩🇰 Denmark (+ 🇬🇱 Greenland), 🇮🇪 Ireland, 🇬🇧 Great Britain (+ 🇬🇮
+        Giblartar), 🇩🇪 Germany, 🇳🇱 The Netherlands, 🇫🇷 France (+ Corsica), 🇪🇸
+        Spain (+ Mallorca, 🇮🇨 The Canary Islands, Ceuta), 🇵🇹 Portugal (+
+        Madeira, Porto Santo, The Azores), 🇮🇹 Italy.
+      </p>
+
+      <p>
+        <strong>🏄🏻‍♀️ Windsurfing</strong> <br />
+        Started in 2014. I like strong wind above 15 knots. <br />
+        Home spot: Risco del Paso & Matas Blancas.
+        <br />
+        <br />
+        <a href="https://www.matasbay.com" target="_blank"
+          >Check the Kite- & Windsurfing Center "Matas Bay"</a
+        >
+      </p>
+      <button class="course">Book the windsurfing course</button>
+    </div>
+
+    <footer>
+      Created by <b>Alex Tom</b> using HTML5, CSS3 & JS
+      <div class="media">
+        <a href="https://www.linkedin.com/in/alextomf/" target="_blank">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/323/original/linkedin_logo.png?1669418918"
+            alt="LinkedIn"
+          />
+        </a>
+        <a href="https://www.instagram.com/alex_tom_f/" target="_blank">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/055/325/original/Instagram_logo_2022.svg.png?1669419035"
+            alt="Instagram"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        // body.classList.toggle("dark");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".theme");
+      themeButton.addEventListener("click", changeTheme);
+
+      function bookCourse() {
+        let name = prompt("What's your name?");
+        let email = prompt("What's your email?");
+        let query = prompt("Have you ever tried windsurfing?");
+
+        alert(`Thanks ${name}! We'll contact you soon!`);
+      }
+
+      let bookButton = document.querySelector(".course");
+      bookButton.addEventListener("click", bookCourse);
+    </script>
+  </body>
+</html>
